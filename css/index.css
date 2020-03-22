@@ -1,3 +1,76 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+*{
+    border-sizing:border-box;
+    margin:0 2%;
+    max-width:100%;
+    height: auto;
+    width:auto;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+h1, h2, h3 ,h4 ,h5, h6{
+    font-family: 'Bangers';
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+p{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header nav{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.header nav a{
+    text-decoration: none;
+    color: rgb(191, 191, 191);
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    padding: 3% 0;
+
+
+}
+
+
+
+button{
+  margin-left: 25%;
+  margin-top: 3%;
+  padding: 0 8%;
+
+}
+
+.mid{
+    border-top: 2px solid black;
+    padding: 2% 0;
+    border-bottom: 2px solid black ;
+}
+
+.middle-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraph-top{
+    width:48%
+}
+
+.middle-img{
+    width:100%;
+    padding: 3% 0;
+}
+
+
 
 
