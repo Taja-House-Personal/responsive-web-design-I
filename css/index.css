@@ -1,9 +1,10 @@
 *{
-    border-sizing:border-box;
+    /* border-sizing:border-box; */
     margin:0 2%;
     max-width:100%;
     height: auto;
     width:auto;
+    background-color: gray;
 }
 h1{
     font-size: 4rem;
@@ -69,6 +70,18 @@ button{
 .middle-img{
     width:100%;
     padding: 3% 0;
+}
+
+.middle-bottom{
+    display: flex;
+}
+.phone{
+    padding-bottom: 5%;
+    text-decoration: none;
+
+}
+footer{
+    text-align: center;
 }
 
 
