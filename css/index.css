@@ -60,7 +60,7 @@ button{
 
 .middle-top{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .paragraph-top{
@@ -85,5 +85,55 @@ footer{
 }
 
 
+
+@media screen and (max-width:800px){
+    .main-title{
+     color:rgb(8, 8, 91);
+    
+    }
+    h2, h3{
+        color:rgb(8, 8, 91);
+    }
+    p{
+        color: rgb(191, 191, 191);
+    }
+
+    .first-img{
+        max-width: 40%;
+        max-height: 40vh;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+       *{
+            background-color: whitesmoke;
+
+        } /*End of universal elements*/
+        .first-img{
+            display: none;
+        }
+
+        .header nav a{
+            font-size: 12px;
+            color:rgb(8, 8, 91);
+        }
+
+        p{
+            color: black
+        }
+
+        .middle-img{
+            display: none;
+            padding-bottom: 20%;
+        }
+
+
+        .middle-bottom{
+            flex-direction: column;
+            border-top: 2px solid black;          
+
+        }
+}
 
 
